@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "otp-service"
+version = "0.1.0"
+description = ""
+authors = ["NxtaSunstrike <unixalle765@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gunicorn = "^23.0.0"
+uvicorn = "^0.32.0"
+motor = "^3.6.0"
+fastapi = "^0.115.4"
+faststream = "^0.5.28"
+redis = "^5.2.0"
+dishka = "^1.4.0"
+prometheus-client = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
